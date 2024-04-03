@@ -50,15 +50,15 @@ class ArtistRetriever:
         self._artists_df = artists_df
 
 
-if __name__ == "__main__":
-    user_artists_matrix = load_user_artists(
-        Path(r"C:\Users\dolke\PycharmProjects\MusicRecommendationSystem\LastFMData\user_artists.dat")
-    )
-    print(user_artists_matrix)
-
-    artist_retriever = ArtistRetriever()
-    artist_retriever.load_artists(
-        Path(r"C:\Users\dolke\PycharmProjects\MusicRecommendationSystem\LastFMData\artists.dat"))
-
-    artist = artist_retriever.get_artist_name_from_id(1)
-    print(artist)
+# if __name__ == "__main__":
+    # user_artists_matrix = load_user_artists(
+    #     Path(r"C:\Users\dolke\PycharmProjects\MusicRecommendationSystem\LastFMData\user_artists.dat")
+    # )
+    # print(user_artists_matrix)
+    #
+    # artist_retriever = ArtistRetriever()
+    # artist_retriever.load_artists(
+    #     Path(r"C:\Users\dolke\PycharmProjects\MusicRecommendationSystem\LastFMData\artists.dat"))
+    #
+    # artist = artist_retriever.get_artist_name_from_id(1)
+    # print(artist)
